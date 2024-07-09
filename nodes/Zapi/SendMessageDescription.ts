@@ -13,18 +13,6 @@ export const sendMessageOperations: INodeProperties[] = [
         },
         options: [
             {
-                name: 'Send Text',
-                value: 'send-text',
-                description: 'Send text message',
-                action: 'Send text',
-            },
-            {
-                name: 'Send Options List',
-                value: 'send-option-list',
-                description: 'Send text message with options list',
-                action: 'Send text with options list',
-            },
-            {
                 name: 'Send Audio',
                 value: 'send-audio',
                 description: 'Send audio message',
@@ -37,28 +25,28 @@ export const sendMessageOperations: INodeProperties[] = [
                 action: 'Send document',
             },
             {
-                name: 'Send Image',
-                value: 'send-image',
-                description: 'Send image message',
-                action: 'Send image',
-            },
-            {
-                name: 'Send Sticker',
-                value: 'send-sticker',
-                description: 'Send sticker message',
-                action: 'Send sticker',
-            },
-            {
                 name: 'Send GIF',
                 value: 'send-gif',
                 description: 'Send GIF message',
                 action: 'Send GIF',
             },
             {
-                name: 'Send Video',
-                value: 'send-video',
-                description: 'Send video message',
-                action: 'Send video',
+                name: 'Send Image',
+                value: 'send-image',
+                description: 'Send image message',
+                action: 'Send image',
+            },
+            {
+                name: 'Send Location',
+                value: 'send-location',
+                description: 'Send location message',
+                action: 'Send location',
+            },
+            {
+                name: 'Send Options List',
+                value: 'send-option-list',
+                description: 'Send text message with options list',
+                action: 'Send text with options list',
             },
             {
                 name: 'Send PTV',
@@ -67,10 +55,22 @@ export const sendMessageOperations: INodeProperties[] = [
                 action: 'Send PTV',
             },
             {
-                name: 'Send Location',
-                value: 'send-location',
-                description: 'Send location message',
-                action: 'Send location',
+                name: 'Send Sticker',
+                value: 'send-sticker',
+                description: 'Send sticker message',
+                action: 'Send sticker',
+            },
+            {
+                name: 'Send Text',
+                value: 'send-text',
+                description: 'Send text message',
+                action: 'Send text',
+            },
+            {
+                name: 'Send Video',
+                value: 'send-video',
+                description: 'Send video message',
+                action: 'Send video',
             },
         ],
         default: 'send-text',
@@ -187,7 +187,7 @@ export const sendMessageFields: INodeProperties[] = [
         description: 'Adds a option to set also values which have not been predefined',
     },
     {
-        displayName: 'URL or base64',
+        displayName: 'URL or Base64',
         name: 'urlOrBase64',
         type: 'string',
         default: '',
@@ -227,7 +227,7 @@ export const sendMessageFields: INodeProperties[] = [
                 resource: ['send-message'],
             },
         },
-        description: 'Specifies whether the message will be a view-once message or not',
+        description: 'Whether the message will be a view-once message or not',
     },
     {
         displayName: 'Filename',
@@ -258,7 +258,7 @@ export const sendMessageFields: INodeProperties[] = [
         description: 'Text caption to be sent',
     },
     {
-        displayName: 'Title location',
+        displayName: 'Title Location',
         name: 'title',
         type: 'string',
         default: '',
@@ -272,7 +272,7 @@ export const sendMessageFields: INodeProperties[] = [
         description: 'Title location to be sent',
     },
     {
-        displayName: 'Address location',
+        displayName: 'Address Location',
         name: 'address',
         type: 'string',
         default: '',
