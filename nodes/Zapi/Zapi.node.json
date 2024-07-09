@@ -1,0 +1,21 @@
+{
+    "node": "n8n-nodes-base.Zapi",
+    "nodeVersion": "1.0",
+    "codexVersion": "1.0",
+    "categories": [
+        "Communication",
+        "Development"
+    ],
+    "resources": {
+        "credentialDocumentation": [
+            {
+                "url": "https://developer.z-api.io/"
+            }
+        ],
+        "primaryDocumentation": [
+            {
+                "url": "https://developer.z-api.io/"
+            }
+        ]
+    }
+}
