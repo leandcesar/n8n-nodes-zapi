@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-zapi",
   "version": "0.1.0",
-  "description": ".",
+  "description": "Custom n8n node for Z-API.",
   "keywords": [
     "n8n-community-node-package",
     "zapi",
@@ -9,14 +9,14 @@
     "whatsapp"
   ],
   "license": "MIT",
-  "homepage": "https://n8n.io",
+  "homepage": "https://github.com/leandcesar/n8n-nodes-zapi",
   "author": {
-    "name": "Test",
-    "email": "test@example.com"
+    "name": "Leandro César",
+    "url": "https://github.com/leandcesar"
   },
   "repository": {
     "type": "git",
-    "url": "git+<your-repo-url>"
+    "url": "git+https://github.com/leandcesar/n8n-nodes-zapi.git"
   },
   "main": "index.js",
   "scripts": {
