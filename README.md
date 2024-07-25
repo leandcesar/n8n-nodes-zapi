@@ -26,22 +26,22 @@ The following operations are supported by the Z-API node:
 ### Messages
 
 #### Send Message
-- [x] Send text
-- [x] Send image
-- [x] Send sticker
-- [x] Send GIF
 - [x] Send audio
-- [x] Send video
-- [x] Send PTV
-- [x] Send documents
-- [ ] Send link
-- [x] Send location
 - [ ] Send contact
-- [ ] Send multiple contacts
-- [ ] ~~Send text with action buttons~~ (unavailable)
-- [ ] ~~Send text with buttons texto~~ (unavailable)
-- [ ] ~~Send image with buttons botões~~ (unavailable)
+- [ ] Send contacts
+- [x] Send document
+- [x] Send GIF
+- [x] Send image
+- [ ] ~~Send image with buttons~~ (unavailable)
+- [ ] Send link
 - [x] Send list of options
+- [x] Send location
+- [x] Send PTV
+- [x] Send sticker
+- [x] Send text
+- [ ] ~~Send text with action buttons~~ (unavailable)
+- [ ] ~~Send text with buttons~~ (unavailable)
+- [x] Send video
 
 #### Manage Message
 - [ ] Send reaction
